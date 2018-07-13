@@ -1,6 +1,6 @@
 	public static void main(String[] args) {
 		int num=111,p=0;
-		for(int i=1;i<=Math.sqrt(num);i++){
+		for(int i=1;i<=num;i++){
 			if(num%i==0){
 				p++;
 			}
